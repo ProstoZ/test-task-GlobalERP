@@ -1,0 +1,15 @@
+[project]
+name = "test-task-GlobalERP"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alex", email = ""},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
