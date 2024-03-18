@@ -3,9 +3,11 @@ name = "test-task-GlobalERP"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Alex", email = ""},
+    {name = "Alex", email = "Alexandr-Shalnev680@yandex.ru"},
 ]
-dependencies = []
+dependencies = [
+    "ruff>=0.3.3",
+]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
