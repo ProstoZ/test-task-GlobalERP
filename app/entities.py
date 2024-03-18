@@ -11,9 +11,7 @@ class TreeNode:
 
     Methods:
         - add_child(self, child_node): Добавляет объект TreeNode в список детей.
-        - display_tree(self, level=0, prefix='', is_root=True): Рекурсивно выводит структуру дерева,
-            начиная с узла, на котором вызван этот метод. Дерево отображается с отступами,
-            представляющими глубину каждого узла, и визуальным представлением отношений родитель-ребенок.
+        - display_tree(self, level=0, prefix='', is_root=True): Рекурсивно выводит структуру дерева
     """
 
     def __init__(self, value: int) -> None:
